@@ -16,6 +16,11 @@ html, body {
   margin: 150px;
 }
 
+div img {
+  width: 65px;
+  height: 65px;
+}
+
 .main h1 {
   color: #6478D6;
   text-transform: uppercase;
