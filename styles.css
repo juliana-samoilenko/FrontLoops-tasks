@@ -52,7 +52,7 @@ div img {
   margin: 15px;
 }
 
-.main div:hover {
+.main .block:hover {
   background-color: #F0F2F5;
   border-radius: 5px;
 }
