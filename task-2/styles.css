@@ -1,0 +1,131 @@
+html {
+  background-image: url(img/background.jpg);
+}
+
+html, body{
+  font: 1em/1.1 Roboto;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.h3, .h5 {
+  margin: 1.1em;
+  padding: 0;
+}
+
+.main {
+  padding: 0;
+  margin: auto;
+  margin-top: 100px;
+  width: 290px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+.main .menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.circle {
+  margin: 5px 80px;
+  padding-top: 30px;
+  width: 36px;
+  height: 6px;
+  display: flex;
+  flex-direction: row;
+}
+
+.circle div {
+  margin-left: 6px;
+  width: 6px;
+  height: 6px; 
+  background-color: #cac5c5;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+div.first {
+  background-color: #8d8787;
+}
+
+.main .card {
+  width: 290px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-top: 1px solid #C0C0C0;
+  border-collapse: collapse;
+  color: #A9A9A9;
+}
+
+img {
+  width: 35px; 
+  height: 25px;
+  vertical-align: middle;
+}
+
+.main .mastercard {
+  color: #000000;
+}
+
+.main .card img:first-child {
+  padding: 0 20px;
+}
+
+.main .card img:last-child {
+  padding: 0 80px;
+}
+
+.main .button {
+  padding-top: 10px;
+  width: 280px;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #7065f0;
+  border-top: 0px solid #ffffff;
+  border-bottom: 10px solid #7065f0;
+  border-left: 5px solid #7065f0;
+  border-right: 5px solid #7065f0;
+  border-radius: 3px;
+}
+
+.button a {
+  padding: 5px;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 0.8em;
+}
+
+.button img {
+  width: 13px;
+  height: 13px;
+  border-color: #f0f0f0 #7d72f2;
+  border-top: 0px;
+  border-bottom: 5px;
+}
+
+.main .card:hover {
+  background-color: #f0f0f0;
+}
+
+.main .button:hover {
+  background-color: #7d72f2;
+  border-color: #7d72f2;
+}
+
+.main .button:active {
+  width: 280px;
+  border-top: 2px solid #ffffff;
+  border-bottom: 8px solid #7d72f2;
+}
