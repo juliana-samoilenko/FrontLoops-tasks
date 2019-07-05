@@ -1,0 +1,80 @@
+html, body {
+  font: 16px Roboto;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #16A085;
+}
+
+body {
+  margin: 150px 426px;
+  width: 510px;
+  height: 395px;
+  background: #ffffff url(img/bicycle.png) no-repeat;
+  background-size: 100% auto;
+  background-position-y: 160px;
+  border-radius: 3px; 
+}
+
+.main {
+  margin: 45px; 
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.account {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.account img {
+  padding: 5px;
+  border: 1px solid #dad9d9;
+  border-radius: 50%;
+  transition-property: box-shadow;
+}
+
+.first {
+  margin-top: 25px;
+}
+
+.special {
+  margin: 0px;
+  padding: 0;
+  font-size: 12px;
+  width: 390px;
+  font-weight: 500;
+  color: #aaaaaa;
+}
+
+.check div {
+  width: 390px;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.count {
+  color: #5c5c5c;
+  text-transform: capitalize;
+}
+
+.price {
+  color: #000000;
+  font-weight: 700;
+}
+
+.total {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.account img:hover {
+  box-shadow: 0 0 0 3px #efefef;
+  transition-duration: 0.5s;
+}
