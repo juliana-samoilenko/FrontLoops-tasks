@@ -9,8 +9,8 @@ html, body{
   text-align: center;
 }
 
-.h3, .h5 {
-  margin: 1.1em;
+h3, h5 {
+  margin: 20px;
   padding: 0;
 }
 
@@ -81,7 +81,7 @@ img {
 }
 
 .main .card img:last-child {
-  padding: 0 80px;
+  padding: 0 50px;
 }
 
 .main .button {
