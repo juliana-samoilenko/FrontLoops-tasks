@@ -19,7 +19,7 @@ h3, h5 {
   margin: auto;
   margin-top: 100px;
   width: 290px;
-  height: 300px;
+  height: 315px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -49,7 +49,6 @@ h3, h5 {
   height: 6px; 
   background-color: #cac5c5;
   border-radius: 50%;
-  vertical-align: middle;
 }
 
 .first:first-child {
@@ -84,15 +83,10 @@ img {
   padding: 0 50px;
 }
 
-.main .button {
-  text-decoration: none;
-  font-size: 0.8em;
-}
-
 .main button {
   padding: 0;
   width: 290px;
-  height: 50px;
+  height: 55px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -105,6 +99,9 @@ img {
   border-left: 1px solid #7065f0;
   border-bottom-left-radius: 3px;
   border-bottom-right-radius: 3px;
+
+  text-decoration: none;
+  font-size: 0.8em;
 }
 
 .main button img {
