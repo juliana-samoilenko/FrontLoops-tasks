@@ -35,6 +35,7 @@ body {
   border: 1px solid #dad9d9;
   border-radius: 50%;
   transition-property: box-shadow;
+  transition-duration: 0.5s;
 }
 
 .first {
@@ -76,5 +77,4 @@ body {
 
 .account img:hover {
   box-shadow: 0 0 0 3px #efefef;
-  transition-duration: 0.5s;
 }
