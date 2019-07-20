@@ -52,7 +52,7 @@ h3, h5 {
   vertical-align: middle;
 }
 
-div.first {
+.first:first-child {
   background-color: #8d8787;
 }
 
