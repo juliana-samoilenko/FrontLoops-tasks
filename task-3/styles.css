@@ -4,30 +4,28 @@ html, body {
   padding: 0;
 }
 
-html {
+body {
   background-color: #16A085;
 }
 
-body {
-  margin: 150px 426px;
+.check {
+  padding: 0;
+  margin: auto;
+  margin-top: 100px;
   width: 510px;
   height: 395px;
   background: #ffffff url(img/bicycle.png) no-repeat;
   background-size: 100% auto;
   background-position-y: 160px;
   border-radius: 3px; 
-}
 
-.main {
-  margin: 45px; 
-  padding: 15px;
   display: flex;
   flex-direction: column;
 }
 
 .account {
-  margin-top: 10px;
-  margin-bottom: 15px;
+  margin: 10px 60px;
+  margin-top: 20px;
 }
 
 .account img {
@@ -39,12 +37,11 @@ body {
 }
 
 .first {
-  margin-top: 25px;
+  margin-top: 30px;
 }
 
 .special {
-  margin: 0px;
-  padding: 0;
+  margin: 0px 60px;
   font-size: 12px;
   width: 390px;
   font-weight: 500;
@@ -61,6 +58,7 @@ body {
 }
 
 .count {
+  padding: 5px 60px;
   color: #5c5c5c;
   text-transform: capitalize;
 }
