@@ -13,7 +13,7 @@ body {
   margin: auto;
   margin-top: 100px;
   width: 510px;
-  height: 395px;
+  min-height: 395px;
   background: #ffffff url(img/bicycle.png) no-repeat;
   background-size: 100% auto;
   background-position-y: 160px;
