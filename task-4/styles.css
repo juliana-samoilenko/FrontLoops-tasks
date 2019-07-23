@@ -38,10 +38,6 @@ header {
   background-color: #FFFFFF;
 }
 
-.name {
-  justify-content: left;
-}
-
 .close {
   padding-left: 175px;
   opacity: 0.5;
