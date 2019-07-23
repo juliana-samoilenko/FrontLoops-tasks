@@ -8,6 +8,11 @@ body {
   background-color: #16A085;
 }
 
+.big {
+  font-size: 19px;
+  font-weight: bolder;
+}
+
 .check {
   padding: 0;
   margin: auto;
