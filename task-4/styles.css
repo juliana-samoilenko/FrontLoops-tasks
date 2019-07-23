@@ -1,19 +1,19 @@
-html, body {
+.html, .body {
   margin: auto;
   padding: 0;
   font-size: 16px;
   font-family: Roboto,  Arial, sans-serif;
 }
 
-body {
+.body {
   background-color: #B4C9DC;
 }
 
-P {
+.words {
   margin: 5px;
 }
 
-header {
+.header {
   padding: 0;
   margin: auto;
   margin-top: 100px;
@@ -47,7 +47,7 @@ header {
   opacity: 1;
 }
 
-main {
+.main {
   padding-top: 15px;
   margin: auto;
   background-color: #FFFFFF;
@@ -85,7 +85,7 @@ main {
   border-radius: 3px;
 }
 
-time {
+.time {
   margin-left: 14px;
   font-size: 12px;
   color: #b9acac;
@@ -124,7 +124,7 @@ time {
   height:1px;
 }
 
-.input {
+.input-special {
   margin: 10px 14px;
   padding-bottom: 10px;
   display: flex;
@@ -132,7 +132,7 @@ time {
   justify-content: space-between;
 }
 
-input {
+.active-input {
   margin-left: 3px;
   font-weight: 700;
   border: none;
