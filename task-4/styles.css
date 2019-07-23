@@ -1,0 +1,157 @@
+html, body {
+  margin: auto;
+  padding: 0;
+  font-size: 16px;
+  font-family: Roboto,  Arial, sans-serif;
+}
+
+body {
+  background-color: #B4C9DC;
+}
+
+P {
+  margin: 5px;
+}
+
+header {
+  padding: 0;
+  margin: auto;
+  margin-top: 100px;
+  width: 375px;
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13px;
+  background-color: #6A96D7;
+}
+
+.circle {
+  margin: 0px 15px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+}
+
+.name {
+  justify-content: left;
+}
+
+.close {
+  padding-left: 175px;
+  opacity: 0.5;
+}
+
+.close:hover {
+  opacity: 1;
+}
+
+main {
+  padding: 0;
+  margin: auto;
+  background-color: #FFFFFF;
+  min-height: 300px;
+  width: 375px;
+}
+
+.void {
+  height: 15px;
+}
+
+.day {
+  text-transform: uppercase;
+  color: #dacbcb;
+  font-size: 11px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.line-1 {
+  margin: 0px;
+  width: 125px;
+  border:none; 
+  background:#dacbcb; 
+  height:1px;
+}
+
+.message {
+  padding: 0px;
+  margin: 8px 14px;
+  display: inline-block;
+  min-width: 30px;
+  max-width: 230px;
+  min-height: 25px;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 3px;
+}
+
+time {
+  margin-left: 14px;
+  font-size: 12px;
+  color: #b9acac;
+  font-weight: 500;
+}
+
+.tab {
+  margin-left: 325px;
+}
+
+.chel-1 {
+  background-color: #E6EDF7;
+}
+
+.chel-2 {
+  margin-left: 125px;
+  background-color: #F2F2F2;
+}
+
+.warning {
+  margin-left: 185px;
+  margin-top: 15px;
+  background-color: #F1C9C9;
+}
+
+.line-2 {
+  margin-left: 15px;
+  margin-bottom: 0px;
+  width: 340px;
+  border:none; 
+  background:#dacbcb; 
+  height:1px;
+}
+
+.input {
+  margin: 10px 14px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+input {
+  margin-left: 3px;
+  font-weight: 700;
+  border: none;
+  outline: none;
+}
+
+.btn {
+  color: #6A96D7;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  border: none;
+  background-color: #FFFFFF;
+}
+
+.btn:hover {
+  color: #84a6da;
+}
