@@ -10,7 +10,8 @@
 }
 
 .margin-for-p {
-  margin: 10px;
+  margin: 0px;
+  padding: 0px;
 }
 
 .header-chat {
@@ -59,6 +60,7 @@
 }
 
 .dispatch-day {
+  padding: 10px 0px;
   text-transform: uppercase;
   color: #dacbcb;
   font-size: 11px;
@@ -75,15 +77,15 @@
 }
 
 .dispatch-day::before {
-  margin: 0px 5px 0px 15px;
+  margin: 0px 10px 0px 15px;
 }
 
 .dispatch-day::after {
-  margin: 0px 15px 0px 5px;
+  margin: 0px 15px 0px 10px;
 }
 
 .message {
-  padding: 0px;
+  padding: 5px;
   margin: 8px 14px;
   display: inline-block;
   min-width: 30px;
