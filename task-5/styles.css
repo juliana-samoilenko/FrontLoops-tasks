@@ -7,16 +7,16 @@
 .page-ticket {
   background-image: url(img/background.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
   background-position: center;
+  background-size: 100%;
 }
 
-.words {
+.resets-for-p {
   margin: 0;
   padding: 0;
 }
 
-.all {
+.ticket {
   margin: auto;
   margin-top: 50px;
   padding: 55px 40px 45px 40px;
@@ -28,7 +28,7 @@
   border-radius: 5px;
 }
 
-.country-short {
+.short-country-name {
   font: 40px 'Prompt', Arial, sans-serif;
   display: flex;
   flex-direction: row;
@@ -38,11 +38,11 @@
   font-weight: 900;
 }
 
-.words-special {
+.color-dash {
   color: #D3E6F4;
 }
 
-.country-completely {
+.full-country-name {
   margin-bottom: 55px;
   display: flex;
   flex-direction: row;
@@ -56,13 +56,13 @@
   margin-right: 100px;
 }
 
-.line-1 {
+.flight-information {
   margin-bottom: 20px;
   display: flex;
   flex-direction: row;
 }
 
-.first-word {
+.gray-words {
   font-size: 12px;
   text-transform: uppercase;
   color: #9ea4aa;
@@ -70,11 +70,11 @@
   font-weight: 500;
 }
 
-.second-word {
+.black-words {
   font-weight: 500;
 }
 
-.line-2 {
+.passenger-information {
   margin-top: 20px;
   display: flex;
   flex-direction: row;
