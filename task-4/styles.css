@@ -52,11 +52,11 @@
 }
 
 .dialog {
-  padding-top: 15px;
+  padding: 15px 20px 0px 20px;
   margin: auto;
   background-color: #FFFFFF;
   min-height: 300px;
-  width: 375px;
+  width: 335px;
 }
 
 .dispatch-day {
@@ -77,16 +77,16 @@
 }
 
 .dispatch-day::before {
-  margin: 0px 10px 0px 15px;
+  margin: 0px 10px 0px 0px;
 }
 
 .dispatch-day::after {
-  margin: 0px 15px 0px 10px;
+  margin: 0px 0px 0px 10px;
 }
 
 .message {
   padding: 5px;
-  margin: 8px 14px;
+  margin: 8px 0px;
   display: inline-block;
   min-width: 30px;
   max-width: 230px;
@@ -97,18 +97,19 @@
 }
 
 .time-message {
-  margin-left: 14px;
   font-size: 12px;
   color: #b9acac;
   font-weight: 500;
 }
 
 .tab-left {
-  margin-left: 325px;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .tab-right {
-  margin-right: 300px;
+  display: flex;
+  flex-direction: row;
 }
 
 .user-1 {
@@ -127,7 +128,7 @@
 }
 
 .chat-input {
-  margin: 10px 14px;
+  margin: 10px 0px;
   padding: 10px 0px;
   display: flex;
   flex-direction: row;
@@ -136,7 +137,7 @@
 }
 
 .active-input {
-  padding: 5px 130px 5px 3px;
+  padding: 5px 100px 5px 3px;
   font-weight: 700;
   border: none;
   outline: none;
