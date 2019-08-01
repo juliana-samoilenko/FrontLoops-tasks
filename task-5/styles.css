@@ -5,7 +5,10 @@
 }
 
 .body {
-  background: no-repeat center/100% url(img/background.jpg);
+  background-image: url(img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
 }
 
 .words {
