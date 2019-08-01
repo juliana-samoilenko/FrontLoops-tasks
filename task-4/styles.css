@@ -1,19 +1,19 @@
-.html, .body {
-  margin: auto;
+.reset-page {
+  margin: 0;
   padding: 0;
-  font-size: 16px;
-  font-family: Roboto,  Arial, sans-serif;
 }
 
-.body {
+.body-decor {
+  font-size: 16px;
+  font-family: Roboto,  Arial, sans-serif;
   background-color: #B4C9DC;
 }
 
-.words {
-  margin: 5px;
+.margin-for-p {
+  margin: 10px;
 }
 
-.header {
+.header-chat {
   padding: 0;
   margin: auto;
   margin-top: 100px;
@@ -30,7 +30,11 @@
   background-color: #6A96D7;
 }
 
-.circle {
+.tab-for-name {
+  margin: 0px 175px 0px 0px;
+}
+
+.user-status {
   margin: 0px 15px;
   width: 6px;
   height: 6px;
@@ -38,16 +42,15 @@
   background-color: #FFFFFF;
 }
 
-.close {
-  padding-left: 175px;
+.close-chat {
   opacity: 0.5;
 }
 
-.close:hover {
+.close-chat:hover {
   opacity: 1;
 }
 
-.main {
+.dialog {
   padding-top: 15px;
   margin: auto;
   background-color: #FFFFFF;
@@ -55,7 +58,7 @@
   width: 375px;
 }
 
-.day {
+.dispatch-day {
   text-transform: uppercase;
   color: #dacbcb;
   font-size: 11px;
@@ -85,26 +88,26 @@
   border-radius: 3px;
 }
 
-.time {
+.time-message {
   margin-left: 14px;
   font-size: 12px;
   color: #b9acac;
   font-weight: 500;
 }
 
-.tab {
+.tab-left {
   margin-left: 325px;
 }
 
-.br {
+.tab-right {
   margin-right: 300px;
 }
 
-.chel-1 {
+.user-1 {
   background-color: #E6EDF7;
 }
 
-.chel-2 {
+.user-2 {
   margin-left: 125px;
   background-color: #F2F2F2;
 }
@@ -124,7 +127,7 @@
   height:1px;
 }
 
-.input-special {
+.chat-input {
   margin: 10px 14px;
   padding-bottom: 10px;
   display: flex;
@@ -139,7 +142,7 @@
   outline: none;
 }
 
-.btn {
+.btn-send {
   color: #6A96D7;
   font-size: 12px;
   font-weight: 800;
@@ -148,6 +151,6 @@
   background-color: #FFFFFF;
 }
 
-.btn:hover {
+.btn-send:hover {
   color: #84a6da;
 }
