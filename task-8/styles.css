@@ -101,7 +101,31 @@
 }
 
 .name-tour {
+  margin-bottom: 25px;
   font-family: 'Playfair Display', Arial, sans-serif;
   font-size: 55px;
   font-weight: 400;
 }
+
+.trip-author {
+  margin-bottom: 35px;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Playfair Display', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.bold-name {
+  font-weight: 700;
+}
+
+/* .basic-information {
+  display: flex;
+  flex-direction: row; (убрать?)
+}
+
+.intro-video, .description {
+  display: flex;
+  flex-direction: column;
+}  */
