@@ -1,14 +1,14 @@
-.html, .body {
+.resets-page {
   margin: 0;
   padding: 0;
   font: 16px Roboto, Arial, sans-serif;
 }
 
-.body {
+.page-newsletter {
   background-color: #4D515D;
 }
 
-.main {
+.all-card {
   margin: auto;
   margin-top: 45px;
   padding: 0;
@@ -21,12 +21,12 @@
   background-position-x: 550px;
 }
 
-.words {
+.resets-for-p {
   margin: 0;
   padding: 0;
 }
 
-.container {
+.text-card {
   margin: 0;
   padding: 50px 50px 35px 55px;
   display: flex;
@@ -69,7 +69,7 @@
   flex-direction: row;
 }
 
-.btn-1 {
+.add-google, .add-facebook, .add-twitter {
   margin-bottom: 30px;
   width: 500px;
   height: 50px;
@@ -89,11 +89,11 @@
   font-weight: 700;
 }
 
-.words-end {
+.margin-before-send {
   margin-right: 80px;
 }
 
-.btn-2 {
+.btn-send {
   border: none;
   background-color: #FFFFFF;
   color: #8C8C8C;
@@ -101,11 +101,11 @@
   font-weight: 700;
 }
 
-.btn-1:hover {
+.btn-add:hover {
   color: #000000;
   box-shadow: 0 0 10px 5px #dddddd;
 }
 
-.btn-2:hover {
+.btn-send:hover {
   color: #000000;
 }
