@@ -1,19 +1,19 @@
-.html, .body {
+.resets-page {
   padding:0;
   margin:0;
+}
+
+.article-beaman {
+  background-color: #F2CE97;
   font: 16px Roboto, Arial, sans-serif;
 }
 
-.body {
-  background-color: #F2CE97;
-}
-
-.words {
+.resets-for-p {
   padding: 0;
   margin: 0;
 }
 
-.main {
+.all-card {
   margin: auto;
   padding: 0;
   margin-top: 80px;
@@ -23,29 +23,29 @@
   flex-direction: row;
 }
 
-.dark, .light {
+.card-author, .card-text {
   height: 475px;
   display: flex;
   flex-direction: column;
 }
 
-.dark {
+.card-author {
   width: 340px;
   background-color: #484856;
   color: #FFFFFF;
 }
 
-.big-bold-letters {
+.big-bold-title {
   font-size: 25px;
   font-weight: 500;
 }
 
-.big-letters {
+.big-title {
   font-size: 25px;
   font-weight: 100;
 }
 
-.dark-content {
+.card-author-content {
   padding: 60px 125px 35px 35px;
   height: 475px;
 }
@@ -76,20 +76,20 @@
   font-weight: 100;
 }
 
-.light {
+.card-text {
   width: 510px;
   background-color: #FFFFFF;
 }
 
-.light-content {
+.card-text-content {
   height: 475px;
 }
 
-.text {
+.article-text {
   margin: 50px 40px 30px 35px;
 }
 
-.lighter-letters {
+.article-text-letters {
   font-size: 18px;
   font-weight: 300;
 }
