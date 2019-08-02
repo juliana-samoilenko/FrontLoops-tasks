@@ -95,7 +95,7 @@
 }
 
 .capital-letter {
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .capital-letter::first-letter {
