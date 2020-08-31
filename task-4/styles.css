@@ -17,7 +17,7 @@
 .header-chat {
   padding: 0;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 10vh;
   width: 375px;
   height: 55px;
   display: flex;
@@ -128,6 +128,7 @@
 }
 
 .chat-input {
+  width: 335px;
   margin: 10px 0px;
   padding: 10px 0px;
   display: flex;
@@ -137,14 +138,11 @@
 }
 
 .active-input {
+  width: 200px;
   padding: 5px 100px 5px 3px;
   font-weight: 700;
   border: none;
   outline: none;
-}
-
-.active-input:focus {
-  outline: 1px solid #6A96D7;
 }
 
 .btn-send {
