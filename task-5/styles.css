@@ -1,0 +1,88 @@
+.resets-page {
+  margin: 0;
+  padding: 0;
+  font: 16px Roboto, Arial, sans-serif;
+}
+
+.page-ticket {
+  background-image: url(img/background.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.resets-for-p {
+  margin: 0;
+  padding: 0;
+}
+
+.ticket {
+  margin: auto;
+  margin-top: 50px;
+  padding: 55px 40px 45px 40px;
+  max-width: 390px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 5px;
+}
+
+.short-country-name {
+  font: 40px 'Prompt', Arial, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #3B8ACF;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.color-dash {
+  color: #D3E6F4;
+}
+
+.full-country-name {
+  margin-bottom: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-transform: uppercase;
+  color: #9ea4aa;
+  font-weight: 400;
+}
+
+.flight, .gate {
+  margin-right: 100px;
+}
+
+.flight-information {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.gray-words {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #9ea4aa;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.black-words {
+  font-weight: 500;
+}
+
+.passenger-information {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
