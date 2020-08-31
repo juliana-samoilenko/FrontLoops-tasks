@@ -1,0 +1,111 @@
+.resets-page {
+  margin: 0;
+  padding: 0;
+  font: 16px Roboto, Arial, sans-serif;
+}
+
+.page-newsletter {
+  background-color: #4D515D;
+}
+
+.all-card {
+  margin: auto;
+  margin-top: 45px;
+  padding: 0;
+  padding-right: 345px;
+  width: 550px;
+  height: 540px;
+  border-radius: 3px;
+  background:#FFFFFF url(img/side.jpg) no-repeat;
+  background-size: contain;
+  background-position-x: 550px;
+}
+
+.resets-for-p {
+  margin: 0;
+  padding: 0;
+}
+
+.text-card {
+  margin: 0;
+  padding: 50px 50px 35px 55px;
+  display: flex;
+  flex-direction: column;
+}
+
+.membership {
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+.first-gray, .second-gray {
+  font-size: 14px;
+  font-weight: 400;
+  color: #989a9e;
+}
+
+.second-gray {
+  margin-bottom: 40px;
+}
+
+.image { 
+  margin-left: 10px;
+  margin-right: 110px;
+  width: 20px;
+  height: 20px;
+}
+
+.image-google {
+  margin-left: 13px;
+  margin-right: 115px;
+}
+
+.image-twitter {
+  margin-right: 120px;
+}
+
+.google, .facebook, .twitter, .send {
+  display: flex;
+  flex-direction: row;
+}
+
+.add-google, .add-facebook, .add-twitter {
+  margin-bottom: 30px;
+  width: 500px;
+  height: 50px;
+  text-align: left;
+  background-color: #FFFFFF;
+  border: 1px solid #e7e7ee;
+  border-radius: 3px;
+  color: #8C8C8C;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.send {
+  margin-top: 70px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.margin-before-send {
+  margin-right: 80px;
+}
+
+.btn-send {
+  border: none;
+  background-color: #FFFFFF;
+  color: #8C8C8C;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.btn-add:hover {
+  color: #000000;
+  box-shadow: 0 0 10px 5px #dddddd;
+}
+
+.btn-send:hover {
+  color: #000000;
+}
