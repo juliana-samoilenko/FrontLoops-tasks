@@ -1,0 +1,161 @@
+.resets-page {
+  margin: 0;
+  padding: 0;
+}
+
+.chat {
+  font-size: 16px;
+  font-family: Roboto,  Arial, sans-serif;
+  background-color: #B4C9DC;
+}
+
+.margin-for-p {
+  margin: 0px;
+  padding: 5px;
+}
+
+.header-chat {
+  padding: 0;
+  margin: auto;
+  margin-top: 100px;
+  width: 375px;
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13px;
+  background-color: #6A96D7;
+}
+
+.tab-for-name {
+  margin: 0px 175px 0px 0px;
+}
+
+.user-status {
+  margin: 0px 15px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #FFFFFF;
+}
+
+.close-chat {
+  opacity: 0.5;
+}
+
+.close-chat:hover {
+  opacity: 1;
+}
+
+.dialog {
+  padding: 15px 20px 0px 20px;
+  margin: auto;
+  background-color: #FFFFFF;
+  min-height: 300px;
+  width: 335px;
+}
+
+.dispatch-day {
+  padding: 10px 0px;
+  text-transform: uppercase;
+  color: #dacbcb;
+  font-size: 11px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.dispatch-day::before, .dispatch-day::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #dacbcb;
+}
+
+.dispatch-day::before {
+  margin: 0px 10px 0px 0px;
+}
+
+.dispatch-day::after {
+  margin: 0px 0px 0px 10px;
+}
+
+.message {
+  padding: 5px;
+  margin: 8px 0px;
+  display: inline-block;
+  min-width: 30px;
+  max-width: 230px;
+  min-height: 25px;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 3px;
+}
+
+.time-message {
+  font-size: 12px;
+  color: #b9acac;
+  font-weight: 500;
+}
+
+.tab-left {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.tab-right {
+  display: flex;
+  flex-direction: row;
+}
+
+.user-1 {
+  background-color: #E6EDF7;
+}
+
+.user-2 {
+  margin-left: 125px;
+  background-color: #F2F2F2;
+}
+
+.warning {
+  margin-left: 185px;
+  margin-top: 15px;
+  background-color: #F1C9C9;
+}
+
+.chat-input {
+  margin: 10px 0px;
+  padding: 10px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-top: 1px solid #dacbcb;
+}
+
+.active-input {
+  padding: 5px 100px 5px 3px;
+  font-weight: 700;
+  border: none;
+  outline: none;
+}
+
+.active-input:focus {
+  outline: 1px solid #6A96D7;
+}
+
+.btn-send {
+  color: #6A96D7;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  border: none;
+  background-color: #FFFFFF;
+}
+
+.btn-send:hover {
+  color: #84a6da;
+}
