@@ -1,0 +1,169 @@
+.resets-page {
+  margin: 0;
+  padding: 0;
+}
+
+.resets-for-p {
+  margin: 0;
+  padding: 0;
+}
+
+.travel-page {
+  font-size: 16px;
+  font-family:'Roboto', Arial, sans-serif;
+  background-color: #ffd5d1 ;
+}
+
+.tourist-card {
+  margin: 40px auto auto auto;
+  padding: 30px 30px 95px;
+  width: 790px;
+  height: 425px;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 20px 20px -6px #c28571;
+  background: #ffffff url(img/background.jpg) no-repeat;
+  background-size: contain;
+}
+
+.block-image, .block-information {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-back {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  font-family:'Roboto', Arial, sans-serif;
+  width: 50px;
+  font-size: 11px;
+  font-weight: 700;
+  color: #7a818a;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: none;
+  text-decoration: none;
+}
+
+.image-back {
+  width: 15px;
+  height: 15px;
+  opacity: 0.4;
+}
+
+.btn-back:hover {
+  color: #000000;
+}
+
+.btn-back:hover .image-back {
+  opacity: 1;
+}
+
+.block-text {
+  padding-left: 310px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-language {
+  margin-bottom: 90px;
+  display: flex;
+  flex-direction: row;
+  height: 11px;
+}
+
+.netherlands, .spain, .france {
+  font-family:'Roboto', Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 700;
+  border: none;
+  background-color: #ffffff;
+}
+
+.color-inactive-language {
+  color: #7a818a;
+}
+
+.margin-for-first-language {
+  margin-left: 210px;
+}
+
+.margin-between {
+  margin-right: 20px;
+}
+
+.color-inactive-language:hover {
+  color: #000000;
+}
+
+.block-information {
+  padding-right: 55px;
+}
+
+.name-tour {
+  margin-bottom: 25px;
+  font-family: 'Playfair Display', Arial, sans-serif;
+  font-size: 55px;
+  font-weight: 400;
+}
+
+.trip-author {
+  margin-bottom: 35px;
+  display: flex;
+  flex-direction: row;
+  font-family: 'Playfair Display', Arial, sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.bold-name {
+  font-weight: 700;
+}
+
+.basic-information {
+  display: flex;
+  flex-direction: row;
+}
+
+.visual-content, .description {
+  display: flex;
+  flex-direction: column;
+}
+
+.visual-content {
+  justify-content: center;
+  margin-right: 35px;
+}
+
+.intro-video {
+  width: 160px;
+  height: 105px;
+}
+
+.photo-album {
+  margin-top: 10px;
+  padding: 0;
+  text-align: left;
+  font-weight: 500;
+  border: none;
+  font-family:'Roboto', Arial, sans-serif;
+  text-transform: uppercase;
+  background: #ffffff;
+}
+
+.screen-saver {
+  width: 15px;
+  height: 15px;
+}
+
+.description {
+  font-family:'Roboto', Arial, sans-serif;
+}
+
+.indent-for-description {
+  margin: 0px;
+  padding-bottom: 5px;
+}
